@@ -1,0 +1,20 @@
+{
+  "name": "9pow99/donut",
+  "homepage": "https://github.com/9pow99/donut",
+  "license": "MIT",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Dmitry Los",
+      "email": "9pow99@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7"
+  },
+  "autoload": {
+    "psr-4": {
+      "Donut\\Donut\\": "src"
+    }
+  }
+}
