@@ -65,7 +65,7 @@ class Donut
      */
     private $outputBuffer;
 
-    public function __construct(int $screenWidth)
+    public function __construct(int $screenWidth = 20)
     {
         $this->screenWidth = $screenWidth;
         $this->screenHeight = $screenWidth;
@@ -83,7 +83,7 @@ class Donut
         $this->K1 = $this->screenWidth * $this->K2 * 3 / (8 * ($this->R1 + $this->R2));
     }
 
-    public function renderLoop()
+    public function showAnimation()
     {
         while (true) {
             $this->outputBuffer = [];
